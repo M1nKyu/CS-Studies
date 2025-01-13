@@ -7,3 +7,7 @@
 
 ## 📌 CS (Computer Science)
 
+
+## 📌 Terminology
+- 🍪 [배치](https://github.com/M1nKyu/CS-Studies/blob/main/10%20CS-Terminologies/%EB%B0%B0%EC%B9%98(Batch).md)
+- 
