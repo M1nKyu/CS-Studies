@@ -9,7 +9,20 @@
 - 🍪 [DROP과 TRUNCATE, DELETE 차이](https://github.com/M1nKyu/CS-Studies/blob/main/00%20TIL/DROP%EA%B3%BC%20TRUNCATE%2C%20DELETE%20%EC%B0%A8%EC%9D%B4.md)
 
 ## 📌 CS (Computer Science)
+### 🧠 Algorithm
+- 🍪 [투 포인터](https://github.com/M1nKyu/CS-Studies/blob/main/01%20Algorithm/%ED%88%AC%20%ED%8F%AC%EC%9D%B8%ED%84%B0%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
 
+### 📊 Data-Structure
+
+### 🌐 Network
+
+### 💾 Database
+
+### 💻 Computer-Architecture
+
+### 🐧 Operating-System
+
+### 🛠️ Software-Engineering
 
 ## 📌 Terminology
 - 🍪 [배치](https://github.com/M1nKyu/CS-Studies/blob/main/10%20CS-Terminologies/%EB%B0%B0%EC%B9%98(Batch).md)
