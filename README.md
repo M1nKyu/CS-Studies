@@ -25,5 +25,8 @@
 ### 🛠️ Software-Engineering
 
 ## 📌 Terminology
-- 🍪 [배치](https://github.com/M1nKyu/CS-Studies/blob/main/10%20CS-Terminologies/%EB%B0%B0%EC%B9%98(Batch).md)
-- 
+- 🍪 [COMMON-배치(Batch)](https://github.com/M1nKyu/CS-Studies/blob/main/10%20CS-Terminologies/COMMON-%EB%B0%B0%EC%B9%98(Batch).md)
+- 🍪 [DB-Index를 탄다](https://github.com/M1nKyu/CS-Studies/blob/main/10%20CS-Terminologies/DB-Index%EB%A5%BC%20%ED%83%84%EB%8B%A4.md)
+- 🍪 [DB-무결성과 정합성](https://github.com/M1nKyu/CS-Studies/blob/main/10%20CS-Terminologies/DB-%EB%AC%B4%EA%B2%B0%EC%84%B1%EA%B3%BC%20%EC%A0%95%ED%95%A9%EC%84%B1.md)
+- 🍪 [DB-카디널리티 (Cardinality)](https://github.com/M1nKyu/CS-Studies/blob/main/10%20CS-Terminologies/DB-%EC%B9%B4%EB%94%94%EB%84%90%EB%A6%AC%ED%8B%B0%20(Cardinality).md)
+- 🍪 [TESTING-Mock](https://github.com/M1nKyu/CS-Studies/blob/main/10%20CS-Terminologies/TESTING-Mock.md)
