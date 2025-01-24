@@ -170,7 +170,7 @@ http://api.example.com/device-management/managed-devices?region=USA&brand=XYZ
 http://api.example.com/device-management/managed-devices?region=USA&brand=XYZ&sort=installation-date
 ```
 
-#### RESTful?
+### 🍪 RESTful?
 - REST의 원리를 잘 따르는 시스템이라면, RESTful 용어로 지칭할 수 있다.
 ---
 ## 🧙‍♂️ 요약
