@@ -5,7 +5,7 @@ category:
   - web
 tags:
   - TIL
-last_modified: 2025-01-24T18:32:00
+last_modified: 2025-01-25T15:41:00
 ---
 > `REST`, `RESTful Architecture`, `RESTful`, `REST API`, `RESTful API`?
 ## ⭐ RESTful 아키텍처란?
@@ -17,9 +17,9 @@ last_modified: 2025-01-24T18:32:00
 	- 그러나 `REST API`와 `RESTful API`는 같은 의미로 사용할 수 있다.
 ---
 ### 🍪 REST (Representational State Transfer)
-> 자원(Resource)의 표현(Representation)에 의한 상태 전달
+> **자원(Resource)의 표현(Representation)** 에 의한 상태 전달
 
-- 웹 서비스 설계에 사용되는 아키텍처 스타일로, 자원을 클라이언트와 서버 간에 효율적으로 전달하기 위한 일련의 원칙과 제약 조건을 정의한다.
+- **웹 서비스 설계**에 사용되는 **아키텍처 스타일**로, 자원을 클라이언트와 서버 간에 효율적으로 전달하기 위한 **일련의 원칙과 제약 조건을 정의**한다.
 - 인터넷의 기본 원리를 기반으로 설계됐으며, HTTP 프로토콜을 효과적으로 활용하는 방식으로 동작한다.
 
 1. HTTP URI를 통해 자원을 명시하고
@@ -27,16 +27,22 @@ last_modified: 2025-01-24T18:32:00
 3. 해당 자원(URI)에 대한 CRUD를 적용한다.
 
 #### 🍬 REST의 구성 요소
-1. 자원 (Resource):
-	- URI를 통해 식별되는 모든 정보.
+1. **자원 (Resource)**:
+	- **URI를 통해 식별**되는 모든 정보.
 	- ex: `https://api.example.com/users/1`
-2. HTTP Method (Method):
-	- 자원에 대한 동작을 정의한다.
+2. **HTTP Method (Method)**:
+	- **자원**에 대한 동작을 정의한다.
 	- `GET`, `POST`, `PUT`, `PATCH`, `DELETE`
-3. 표현 (Representation):
-	- 특정 타임스탬프의 Resource 상태.
-	- JSON, XML 등으로 표현하여 클라이언트와 서버 간 교환된다.
+3. **표현 (Representation)**:
+	- 특정 타임스탬프의 **Resource 상태**.
+	- **JSON, XML** 등으로 표현하여 클라이언트와 서버 간 교환된다.
 	- ex: `{ "id": 1, "name": "John Doe" }`
+- HTTP 상태 코드
+	- `200 OK`: 요청 성공
+	- `201 CREATED`: 자원 생성 성공
+	- `204 NO CONTENT`: 자원 삭제 성공
+	- `404 NOT FOUND`: 자원 미발견
+	- `400 BAD REQUEST`: 요청 데이터 오류
 #### 🍬 REST의 설계 원칙
 1. **일관된 인터페이스 (Uniform Interface)**
 	- RESTful 웹 서비스는 일관된 인터페이스를 제공한다. 즉, 서버는 정보를 표준 형식으로 전송한다. (이 정보가 Representation)
@@ -64,6 +70,84 @@ last_modified: 2025-01-24T18:32:00
 - REST API는 **HTTP 요청**을 통해 통신하여 **CRUD**와 같은 표준 데이터베이스 기능을 수행한다.
 - 웹 서비스에서 자원(Resource)를 URI로 식별하고 HTTP 메서드를 통해 자원에 접근하고 조작하는 방식이다.
 - 각 요청이 어떤 동작이나 정보를 위한 것인지를 그 요청의 모습 자체로 추론이 가능하다는 특징이 있다.
+---
+### 🍪 REST API 설계 예제 - 패션 부티크 API
+> **패션 부티크 API**를 예로 든다.
+
+#### 🍬 모든 고객 조회
+- 요청
+```bash
+GET http://fashionboutique.com/customers
+Accepts: application/json
+```
+- 응답
+```bash
+Status Code: 200 (OK)
+Content-type: application/json
+[
+  { "id": 1, "name": "John Doe", "email": "john.doe@example.com" },
+  { "id": 2, "name": "Jane Smith", "email": "jane.smith@example.com" }
+]
+```
+
+#### 🍬 새로운 고객 생성
+- 요청
+```bash
+POST http://fashionboutique.com/customers
+Content-type: application/json
+Body:
+{
+  "customer": {
+    "name": "Scylla Buss",
+    "email": "scylla.buss@codecademy.org"
+  }
+}
+```
+- 응답
+```bash
+Status Code: 201 (CREATED)
+Content-type: application/json
+{
+  "id": 123,
+  "name": "Scylla Buss",
+  "email": "scylla.buss@codecademy.org"
+}
+```
+
+#### 🍬 고객 데이터 수정 
+> `.org` -> `.com`
+- 요청
+```bash
+PUT http://fashionboutique.com/customers/123
+Content-type: application/json
+Body:
+{
+  "customer": {
+    "name": "Scylla Buss",
+    "email": "scyllabuss1@codecademy.com"
+  }
+}
+```
+- 응답
+```bash
+Status Code: 200 (OK)
+Content-type: application/json
+{
+  "id": 123,
+  "name": "Scylla Buss",
+  "email": "scyllabuss1@codecademy.com"
+}
+```
+
+#### 🍬 고객 삭제
+- 요청
+```bash
+DELETE http://fashionboutique.com/customers/123
+```
+- 응답
+```bash
+Status Code: 204 (NO CONTENT)
+```
 ---
 ### 🍪 URI 네이밍 규칙
 #### 🍬 Resource를 명사로 나타내라.
@@ -169,8 +253,8 @@ http://api.example.com/device-management/managed-devices?region=USA
 http://api.example.com/device-management/managed-devices?region=USA&brand=XYZ
 http://api.example.com/device-management/managed-devices?region=USA&brand=XYZ&sort=installation-date
 ```
-
-#### RESTful?
+---
+### 🍪 RESTful?
 - REST의 원리를 잘 따르는 시스템이라면, RESTful 용어로 지칭할 수 있다.
 ---
 ## 🧙‍♂️ 요약
@@ -207,7 +291,7 @@ http://api.example.com/device-management/managed-devices?region=USA&brand=XYZ&so
 > - [AWS-REST란?](https://docs.aws.amazon.com/ko_kr/appsync/latest/devguide/what-is-rest.html)
 > - [IBM](https://www.ibm.com/kr-ko/topics/rest-apis)
 > - [Medium-URI 네이밍 규칙](https://medium.com/tech-pentasecurity/restful-api-%EB%84%A4%EC%9D%B4%EB%B0%8D-7c81bdb9da63)
->
+> - [개발자를 위한 REST API 모범 사례 10가지](https://apidog.com/kr/blog/rest-api-best-practices-2/)
 
 
 
