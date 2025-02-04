@@ -14,6 +14,7 @@
 - 🍪[JDBC, JPA, Hibernate, Spring Data JPA.](https://github.com/M1nKyu/CS-Studies/blob/main/00%20TIL/JDBC%2C%20JPA%2C%20Hibernate%2C%20Spring%20Data%20JPA.md)
 - 🍪[RESTful 아키텍처](https://github.com/M1nKyu/CS-Studies/blob/main/00%20TIL/RESTful%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.md)
 - 🍪[브라우저 동작 원리](https://github.com/M1nKyu/CS-Studies/blob/main/00%20TIL/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EB%8F%99%EC%9E%91%20%EC%9B%90%EB%A6%AC.md)
+- 🍪[프레임워크와 라이브러리](https://github.com/M1nKyu/CS-Studies/blob/main/00%20TIL/%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EC%99%80%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC.md)
 
 
 ## 📌 CS (Computer Science)
