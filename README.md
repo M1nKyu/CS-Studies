@@ -17,7 +17,7 @@
 - 🍪 [프레임워크와 라이브러리](https://github.com/M1nKyu/CS-Studies/blob/main/00%20TIL/%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EC%99%80%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC.md)
 - 🍪 [마이크로서비스 아키텍처 (MSA)](https://github.com/M1nKyu/CS-Studies/blob/main/00%20TIL/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20(MSA).md)
 - 🍪 [IoC, DIP, DI, IoC Container](https://github.com/M1nKyu/CS-Studies/blob/main/00%20TIL/IoC%EC%99%80%20DI%20(%2BDIP%2C%20IoC%20Container).md)
-- 🍪 []()
+- 🍪 [JPQL과 QueryDSL](https://github.com/M1nKyu/CS-Studies/blob/main/00%20TIL/JPQL%EA%B3%BC%20QueryDSL.md)
 - 🍪 []()
 
 ## 📌 CS (Computer Science)
@@ -44,3 +44,5 @@
 - 🍪 [DB-무결성과 정합성](https://github.com/M1nKyu/CS-Studies/blob/main/10%20CS-Terminologies/DB-%EB%AC%B4%EA%B2%B0%EC%84%B1%EA%B3%BC%20%EC%A0%95%ED%95%A9%EC%84%B1.md)
 - 🍪 [DB-카디널리티 (Cardinality)](https://github.com/M1nKyu/CS-Studies/blob/main/10%20CS-Terminologies/DB-%EC%B9%B4%EB%94%94%EB%84%90%EB%A6%AC%ED%8B%B0%20(Cardinality).md)
 - 🍪 [TESTING-Mock](https://github.com/M1nKyu/CS-Studies/blob/main/10%20CS-Terminologies/TESTING-Mock.md)
+- 🍪 [COMMON-타입 안전성(Type Safety)](https://github.com/M1nKyu/CS-Studies/blob/main/10%20CS-Terminologies/COMMON-%ED%83%80%EC%9E%85%20%EC%95%88%EC%A0%84%EC%84%B1(Type%20safety).md)
+- 🍪 []()
