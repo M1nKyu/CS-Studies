@@ -27,6 +27,9 @@
 ## 📌 CS (Computer Science)
 ### 🧠 Algorithm
 - 🍪 [투 포인터](https://github.com/M1nKyu/CS-Studies/blob/main/01%20Algorithm/%ED%88%AC%20%ED%8F%AC%EC%9D%B8%ED%84%B0%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
+- 🍪 [다음 순열 알고리즘 (Next Permutation)](https://github.com/M1nKyu/CS-Studies/blob/main/01%20Algorithm/%EB%8B%A4%EC%9D%8C%20%EC%88%9C%EC%97%B4%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20(Next%20Permutation).md)
+- 🍪 []()
+- 🍪 []()
 
 <!--
 ### 📊 Data-Structure

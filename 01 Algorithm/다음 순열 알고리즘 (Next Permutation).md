@@ -127,7 +127,7 @@ public class NextPermutation {
 
 ---
 ## 🔗 관련 알고리즘 문제 
-- [[10972번 (다음 순열) ★]]
+- [10972번 (다음 순열) ★](https://github.com/M1nKyu/Coding-Challenges/blob/main/Baekjoon/%EC%88%98%ED%95%99/10972%EB%B2%88%20(%EB%8B%A4%EC%9D%8C%20%EC%88%9C%EC%97%B4)%20%E2%98%85.md)
 
 ---
 > **참고 사이트**
