@@ -64,3 +64,4 @@
 | DB | [카디널리티 (Cardinality)](https://github.com/M1nKyu/CS-Studies/blob/main/10%20CS-Terminologies/DB-%EC%B9%B4%EB%94%94%EB%84%90%EB%A6%AC%ED%8B%B0%20(Cardinality).md) | 
 | TESTING | [Mock](https://github.com/M1nKyu/CS-Studies/blob/main/10%20CS-Terminologies/TESTING-Mock.md) | 
 
+
