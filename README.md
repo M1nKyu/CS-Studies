@@ -1,4 +1,4 @@
-> CS 지식을 기록하는 저장소 <p>
+ > CS 지식을 기록하는 저장소 <p>
 
 
 ## 📌 TIL (Today I Learned)
